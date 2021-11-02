@@ -6,6 +6,7 @@ $(document).ready(function () {
 	// Populate Pedalboards and Pedals lists
 	GetPedalData();
 	GetPedalBoardData();
+	GetPowerSupplyData();
 
 	// Make lists searchable
 	$(".pedal-list").select2({
