@@ -29,6 +29,18 @@ $(document).ready(function () {
 		$(this).trigger("change").focus();
 		//$(this).val(null).trigger('change').focus();
 	});
+	
+	$(".powersupply-list").select2({
+		placeholder: "Select a power supply",
+		width: "style",
+	});
+
+	$(".powersupply-list").on("select2:select", function (e) {
+		$("#add-selected-pedalboard").click();
+		$(this).trigger("change").focus();
+		//$(this).val(null).trigger('change').focus();
+		
+	});	
 
 	$(function () {
 		// Load canvas from localStorage if it has been saved prior
