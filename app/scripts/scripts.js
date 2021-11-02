@@ -1,5 +1,6 @@
 var pedalImagePath = "public/images/pedals/";
 var pedalboardImagePath = "public/images/pedalboards/";
+var powersupplyImagePath = "public/images/powersupply/";
 
 $(document).ready(function () {
 	// Populate Pedalboards and Pedals lists
