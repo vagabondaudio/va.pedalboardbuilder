@@ -36,7 +36,7 @@ $(document).ready(function () {
 	});
 
 	$(".powersupply-list").on("select2:select", function (e) {
-		$("#add-selected-pedalboard").click();
+		$("#add-selected-powersupply").click();
 		$(this).trigger("change").focus();
 		//$(this).val(null).trigger('change').focus();
 		
