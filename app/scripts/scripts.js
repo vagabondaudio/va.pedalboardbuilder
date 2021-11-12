@@ -3,7 +3,7 @@ var pedalboardImagePath = "public/images/pedalboards/";
 var powersupplyImagePath = "public/images/powersupply/";
 
 $(document).ready(function () {
-	// Populate Pedalboards and Pedals lists
+	// Populate Pedalboards, Pedals, and Powersupplies lists
 	GetPedalData();
 	GetPedalBoardData();
 	GetPowerSupplyData();
